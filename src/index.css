@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    width: 5px;
+}
+
+#root {
+    background-color: #d8ceff;
+    min-height: 100vh;
+}
+
+.logo {
+    height: 45px;
+    border-radius: 11px;
+}
+
+#modify-btn-area button {
+    background-color: red;
+    color: white;
+    padding: 7px 28px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+#text-area::selection {
+    background-color: blueviolet;
+    color: white;
+}
+
+#modify-btn-area button:hover {
+    background-color: rgb(8, 191, 179)
+}
+
+#preview h2 {
+    background: linear-gradient(45deg, #ff006a, #c6ff05);
+    color: white;
+}
+
+#preview h3 {
+    color: #0014ff7d;
+}
+
+.show-area {
+    background-color: rgb(27 62 255 / 0%);
+}
+
+@media (max-width: 992px) {
+    nav li {
+        border-top: 2px solid #8c43ff;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-brand {
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+    }
+}
